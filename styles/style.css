@@ -1,0 +1,58 @@
+@import "reset.css";
+@import "menue.css";
+@import "submenue.css";
+@import "posts.css";
+@import "katalog.css";
+@import "auth.css";
+@import "akcia.css";
+@import "kalendar.css";
+/*font-family: 'Ruslan Display', cursive;
+font-family: 'Cuprum', sans-serif;
+font-family: 'Rubik One', sans-serif;*/
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family:  'Cuprum', sans-serif;
+    // background-color: rgba(245, 245, 245, 1);
+    color: #333;
+    // background: url(../pict/menue-after.png) ;
+}
+html {
+    background-color: rgba(245, 245, 245, 1);
+    background: url(../pict/pattern.png) ;
+    background-attachment: fixed;
+}
+.menue {
+    height: 49px;
+    border-bottom: 1px solid #CCCCCC;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #FFFFFF;
+    color: #660066;
+}
+.wraper {
+    width: 960px;
+    margin: 0 auto;
+}
+.tmp1 {
+    height: 80px;
+}
+.tmp2 {
+    position: fixed;
+    top: 50px;
+    width: 960px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 245, 0.9);
+    z-index: 1;
+    -webkit-box-shadow: 0 0 10px 5px rgba(245, 245, 245, 0.9);
+    box-shadow: 0 0 10px 5px rgba(245, 245, 245, 0.9);
+}
+.content {
+    margin-top: 80px;
+    width: 100%;
+    
+}
+

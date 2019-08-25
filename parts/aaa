@@ -1,0 +1,4 @@
+Button "Log in" -> sinform.php
+Button "Register" -> sinup.php
+SESSION.name = sinform.name or sinup.name
+SESSION.pwd = sinform.name or sinup.name
